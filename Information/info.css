@@ -54,20 +54,24 @@ body, html {
 .message {
   width: 328px;
   height: 84px;
-  font-family: 'Victor Serif';
+  ;
 }
 
 .message h3 {
   font-size: 24px;
   line-height: 28px;
+  font-family: 'Victor Serif';
   font-weight: 600;
+  
   /* margin-bottom: 4px; */
 }
 
 .message p {
   font-size: 16px;
   line-height: 24px;
+  font-family: 'Victor Serif';
   font-weight: 400;
+  
 }
 
 .content {
@@ -124,7 +128,7 @@ body, html {
   border: none;
   font-size: 16px;
   line-height: 24px;
-  font-family: 'Victor Serif', serif;
+  font-family: 'Victor Serif';
   font-weight: 600;
   opacity: 0.5;
   cursor: not-allowed;
