@@ -94,29 +94,19 @@ body, html {
   cursor: pointer;
 }
 
-.content input[type="date"] {
-  position: relative;
-  color: transparent;
-}
+ .content input[type="date"], .content select {
+   color:grey;
+} 
 
-.content input[type="date"]:focus,
-.content input[type="date"]:valid {
-  color: black;
-}
-
+/* Remove the placeholder text */
 .content input[type="date"]::before {
-  content: attr(placeholder);
+  content: "";
   position: absolute;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-  color: #999;
+  color: transparent;
   pointer-events: none;
-}
-
-.content input[type="date"]:focus::before,
-.content input[type="date"]:valid::before {
-  content: "";
 }
 
 .button-container {
